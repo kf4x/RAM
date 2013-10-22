@@ -8,4 +8,4 @@ Nexys 3 - Spartan-6
 
 ---
 
-![Diagram](https://github.com/javierchavez/RAM/blob/master/master/diagram.png?raw=true)
+![Diagram](diagram.png)
