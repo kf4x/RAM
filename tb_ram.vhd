@@ -47,7 +47,7 @@ ARCHITECTURE behavior OF tb_ram IS
          address : IN  std_logic_vector(2 downto 0);
          wr_rd : IN  std_logic;
          an : OUT  std_logic_vector(3 downto 0);
-         seg : OUT  std_logic_vector(6 downto 0)
+         seg : OUT  std_logic_vector(7 downto 0)
         );
     END COMPONENT;
     
@@ -61,7 +61,7 @@ ARCHITECTURE behavior OF tb_ram IS
 
  	--Outputs
    signal an : std_logic_vector(3 downto 0);
-   signal seg : std_logic_vector(6 downto 0);
+   signal seg : std_logic_vector(7 downto 0);
 
    -- Clock period definitions
    constant clock_period : time := 10 ns;
